@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Layout</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/vinillabox.css">
+        <link rel="stylesheet" href="./css/framework.css">
+        <link rel="stylesheet" href="./css/main.css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script type="text/javascript" src="./js/jquery.vanillabox-0.1.6.min.js"></script>
+        <script src="./js/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+       <style>
+        .g-1,.g-2,.g-3,.g-4,.g-5,.g-6,.g-7,.g-8,.g-9,.g-10,.g-11,.g-12 {
+            background: #DADADA;
+            text-align: center;
+        }
+        div[class^='g-'] p {
+            padding: 10px 0 4px;
+        }
+        </style>
+        <div class="g" style="background:#E8E8E8;">
+            <div class="g-row">
+                <div class="g-1"><p>g-1</p></div>
+                <div class="g-1"><p>g-1</p></div>
+                <div class="g-1"><p>g-1</p></div>
+                <div class="g-1"><p>g-1</p></div>
+                <div class="g-1"><p>g-1</p></div>
+                <div class="g-1"><p>g-1</p></div>
+                <div class="g-1"><p>g-1</p></div>
+                <div class="g-1"><p>g-1</p></div>
+                <div class="g-1"><p>g-1</p></div>
+                <div class="g-1"><p>g-1</p></div>
+                <div class="g-1"><p>g-1</p></div>
+                <div class="g-1"><p>g-1</p></div>
+            </div>
+            <div class="g-row">
+                <div class="g-2"><p>g-2</p></div>
+                <div class="g-2"><p>g-2</p></div>
+                <div class="g-2"><p>g-2</p></div>
+                <div class="g-2"><p>g-2</p></div>
+                <div class="g-2"><p>g-2</p></div>
+                <div class="g-2"><p>g-2</p></div>
+            </div>
+            <div class="g-row">
+                <div class="g-3"><p>g-3</p></div>
+                <div class="g-3"><p>g-3</p></div>
+                <div class="g-3"><p>g-3</p></div>
+                <div class="g-3"><p>g-3</p></div>
+            </div>
+            <div class="g-row">
+                <div class="g-4"><p>g-4</p></div>
+                <div class="g-4"><p>g-4</p></div>
+                <div class="g-4"><p>g-4</p></div>
+            </div>
+            <div class="g-row">
+                <div class="g-5"><p>g-5</p></div>
+                <div class="g-7"><p>g-7</p></div>
+            </div>
+            <div class="g-row">
+                <div class="g-6"><p>g-6</p></div>
+                <div class="g-6"><p>g-6</p></div>
+            </div>
+            <div class="g-row">
+                <div class="g-7"><p>g-7</p></div>
+                <div class="g-5"><p>g-5</p></div>
+            </div>
+            <div class="g-row">
+                <div class="g-8"><p>g-8</p></div>
+                <div class="g-4"><p>g-4</p></div>
+            </div>
+            <div class="g-row">
+                <div class="g-9"><p>g-9</p></div>
+                <div class="g-3"><p>g-3</p></div>
+            </div>
+            <div class="g-row">
+                <div class="g-10"><p>g-10</p></div>
+                <div class="g-2"><p>g-2</p></div>
+            </div>
+            <div class="g-row">
+                <div class="g-11"><p>g-11</p></div>
+                <div class="g-1"><p>g-1</p></div>
+            </div>
+            <div class="g-row">
+                <div class="g-12"><p>g-12</p></div>
+            </div>
+            
+            <div class="g-row">				<!-- 1 уровень -->
+                <div class="g-6">
+                    <div class="g-row">			<!-- 2 уровень -->
+                        <div class="g-1" style="background:#E86060; color:#E8E3E3"><p>g-1</p></div>
+                        <div class="g-4" style="background:#E86060; color:#E8E3E3"><p>g-4</p></div>
+                        <div class="g-1" style="background:#E86060; color:#E8E3E3"><p>g-1</p></div>
+                    </div><!-- g-row -->
+                    <div class="g-row">			<!-- 2 уровень -->
+                        <div class="g-2" style="background:#E86060; color:#E8E3E3"><p>g-2</p></div>
+                        <div class="g-2" style="background:#E86060; color:#E8E3E3"><p>g-2</p></div>
+                        <div class="g-2" style="background:#E86060; color:#E8E3E3"><p>g-2</p></div>
+                    </div><!-- g-row -->
+                </div><!-- g-6 -->
+                <div class="g-6">
+                    <div class="g-row">			<!-- 2 уровень -->
+                        <div class="g-6" style="background:#E86060; color:#E8E3E3"><p>g-6</p></div>
+                    </div><!-- g-row -->
+                    <div class="g-row">			<!-- 2 уровень -->
+                        <div class="g-3" style="background:#E86060; color:#E8E3E3"><p>g-3</p></div>
+                        <div class="g-3" style="background:#E86060; color:#E8E3E3"><p>g-3</p></div>
+                    </div><!-- g-row -->
+                </div><!-- g-6 -->
+            </div><!-- g-row -->
+            
+            <div class="g-row">
+                <div class="g-9">
+                    <div class="g-row">
+                        <div class="g-3-2" style="background:#E86060; color:#E8E3E3"><p>картинка g-3-2</p></div>
+                        <div class="g-6-45" style="background:#E86060; color:#E8E3E3"><p>Контент g-6</p></div>
+                    </div>
+                </div>
+                <div class="g-3" style="background:#E86060; color:#E8E3E3"><p>правая часть g-4</p></div>
+            </div>
+        </div>
+    </body>
+</html>
